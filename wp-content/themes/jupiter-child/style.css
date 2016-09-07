@@ -1,0 +1,207 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        4.3
+*/
+
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+
+#mk-header .header-logo a img{
+	display: block !important;
+}
+
+.mk-shortcode-heading.mk-fancy-title {
+    font-size: 24px !important;
+    font-weight: normal !important;
+}
+
+
+
+
+
+.mk-blog-classic-item{
+	border:2px solid #f97352;
+}
+
+
+
+.mk-blog-meta-wrapper{
+	display: none;
+}
+
+
+.menu-item.menu-item-type-post_type.menu-item-object-post{
+  font-size: 18px;
+  border:none;
+ }
+
+.menu-item.menu-item-type-post_type.menu-item-object-post a{
+  color:green;
+}
+
+.menu-item.menu-item-type-post_type.menu-item-object-post a:hover{
+  color:#f97352;
+}
+
+
+#menu-side-menu{
+  border:none;
+}
+
+.widget-sub-navigation ul.menu, .widget-sub-navigation>ul, .widget_nav_menu ul.menu, .widget_nav_menu>ul, .widget_product_categories ul.menu, .widget_product_categories>ul{
+  border:none;
+}
+
+
+/*widget styling*/
+
+
+
+
+#mk-sidebar .widgettitle{
+	text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.tw_list .tweet_list li a:before,
+.widget_archive li a:before,
+ .widget_authors li a:before,
+  .widget_categories li a:before,
+   .widget_links li a:before,
+   .widget_meta li a:before,
+    .widget_nav_menu li a:before,
+     .widget_pages li a:before,
+     .widget_popular_tags li a:before,
+      .widget_product_categories li a:before,
+      .widget_rss li a:before{
+      	display: none;
+      }
+
+
+  #mk-sidebar .widget a{
+
+    padding-bottom: 5px;
+    margin-left: 20px;
+  }
+
+  .widget_recent_entries li a{
+  	margin-left: 20px !important;
+  }
+
+
+  .mk-blog-classic-item{
+  	border-radius: 45px;
+  }
+
+
+  .mk-blog-classic-item .mk-blog-meta, .mk-blog-modern-item .mk-blog-meta{
+  	    padding: 10px 20px;
+  }
+
+
+  .news-the-title span a:hover{
+	color: #f97352;
+  }
+
+
+ .tp-caption a.slide_2_link:hover, .tp-caption a.slide_3_link:hover{
+  color: #ffda20;
+ }
+
+
+  .screen-reader-text{
+    display: none;
+  }
+
+  #theme-page select{
+    font-size: 14px;
+  }
+
+
+  .n_1{
+    font-size: 28px !important;
+    background-color: #f97352;
+    color: #fff !important;
+    text-align: center;
+  }
+
+  .n_2{
+    font-size: 28px !important;
+    background-color: #fff;
+    color: #f97352 !important;
+    text-align: center;
+  }
+
+
+
+
+
+  .mk-blog-classic-item .blog-social-share{
+    min-width: 115px;
+  }
+
+
+  .page-introduce-subtitle{
+    color: #fff !important;
+  }
+
+  .widget_contact_info .mk-contactinfo-shortcode ul li span{
+    font-size: 16px;
+  }
+
+  .widget-sub-navigation,.widget_product_categories{
+    background-color: #fff;
+  }
+
+
+ #theme-page .theme-page-wrapper{
+    margin: 0 auto;
+ }
+
+ .the-title a{
+  font-size:30px;
+ }
+
+ .employees-featured-image{
+    margin-bottom: 30px;
+ }
+
+
+
+ #categories-2.widget.widget_categories, #nav_menu-4.widget.widget_nav_menu{
+  background-color: #fff;
+ }
+
+ .mk-fancy-title.pattern-style{
+  background: none;
+ }
+
+
+.container-text{
+  display: none;
+}
+.read-more{
+  cursor: pointer;
+  color: #008000;;
+}
+.text-main strong{
+  font-size: 18px;
+}
+.read-more:hover{
+  color: #f97352;
+}

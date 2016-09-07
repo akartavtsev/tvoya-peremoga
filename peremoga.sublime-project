@@ -1,0 +1,21 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "settings":
+    {
+        "xdebug": {
+            "path_mapping": {
+                "/domains/tvoya-peremoga/" : "D:/OpenServer/domains/tvoya-peremoga/",
+                "/domains/tvoya-peremoga/" : "D:/OpenServer/domains/tvoya-peremoga/wp-content/themes/jupiter-child/"
+            },
+            "url": "http://tvoya-peremoga/index.php",
+            "super_globals": true,
+            "close_on_stop": true
+        }
+    }
+}
